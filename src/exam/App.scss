@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(106, 106, 106);
+}
+.Posts{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    width: 80%;
+    margin: 20px auto;
+    .Post{
+        background-color: rgb(241, 236, 229);
+        border: 1px solid grey;
+        border-radius: 15px;
+        text-align: center;
+        height: 420px;
+        button{
+         background-color: rgb(16, 179, 238);
+         margin: 10px;
+         margin-left: 180px;
+        }
+    }
+}

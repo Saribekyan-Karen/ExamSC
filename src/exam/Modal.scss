@@ -1,0 +1,26 @@
+.Modal {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba($color: #000000,$alpha:0.3);
+    &-Content {
+       min-width: 300px;
+       height: 100px;
+       padding: 1em 2em;
+       background-color: antiquewhite;
+       color: black;
+       border-radius: 12px; 
+       input{
+        margin-top: 30px;
+        align-items: center;
+
+       }   
+       
+    }
+}
